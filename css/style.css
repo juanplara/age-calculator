@@ -1,0 +1,63 @@
+/* Fondo general */
+body {
+    background-color: #007BFF; /* Azul intenso */
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Letras blancas */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+#container {
+    background-color: rgba(255, 255, 255, 0.1); /* Ligera transparencia blanca */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Títulos */
+h1, h2, h3{
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+/* Campo de entrada */
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Botón */
+button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Resultado */
+#age-result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f0f8ff;
+}
+
+.block-result {
+    visibility: hidden;
+}
